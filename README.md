@@ -74,24 +74,17 @@ Screenshots
 *\*Dashboard Overview\*\*
 
 !\[Dashboard Overview]
-(./screenshots/dashboard\_overview.png)
-(./screenshots/dashboard\_overview1.png)
-(./screenshots/dashboard\_overview2.png)
+(frontend\src\assets\screenshots\dashboard_overview.png.png)
+(frontend\src\assets\screenshots\dashboard_overview1.png.png)
+(frontend\src\assets\screenshots\dashboard_overview2.png.png)
 
 
 *\*Risk Chart\*\*
-!\[Risk Chart](./screenshots/risk\_chart.png)
+!\[Risk Chart](frontend\src\assets\screenshots\risk_chart.png.png)
 
 
 *\*Access Events Table\*\*
-!\[Access Events Table](./screenshots/access\_events\_table.png)
-
-
-
-
-
-
-
+!\[Access Events Table](frontend\src\assets\screenshots\access_events_table.png.png)
 
 
 
