@@ -69,28 +69,26 @@ Runs on: http://localhost:5173
 
 
 
-Screenshots
+## Screenshots
 
-*\*Dashboard Overview\*\*
-
-!\[Dashboard Overview]
-(frontend\src\assets\screenshots\dashboard_overview.png.png)
-(frontend\src\assets\screenshots\dashboard_overview1.png.png)
-(frontend\src\assets\screenshots\dashboard_overview2.png.png)
-
-
-*\*Risk Chart\*\*
-!\[Risk Chart](frontend\src\assets\screenshots\risk_chart.png.png)
+### shboard Overview
+![Dashboard Overview]
+(frontend/src/assets/screenshots/dashboard_overview.png)
+(frontend/src/assets/screenshots/dashboard_overview1.png)
+(frontendsrc/assets/screenshots/dashboard_overview2.png)
 
 
-*\*Access Events Table\*\*
-!\[Access Events Table](frontend\src\assets\screenshots\access_events_table.png.png)
+##Risk Chart
+![Risk Chart](frontend/src/assets/screenshots/risk_chart.png)
+
+
+##Access Events Table
+![Access Events Table](frontend/src/assets/screenshots/access_events_table.png)
 
 
 
 
 ## 👤 Author
-
 Yashwanth S R  
 Frontend-focused Developer  
 Proof-of-work project inspired by Unosecur

@@ -1,93 +1,16 @@
-# Identity Risk Dashboard
+# React + Vite
 
-A mini identity-risk monitoring dashboard inspired by Unosecur, focused on visualizing access risks across human and machine identities.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🔍 Project Purpose
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Identity-based attacks are one of the biggest security risks today.
-This project demonstrates how identity access events can be analyzed and visualized to identify:
+## React Compiler
 
-- High-risk login behavior
-- Excessive failed authentication attempts
-- Risk distribution across identities
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-This is a **proof-of-work project** showcasing frontend-heavy implementation with backend risk logic.
+## Expanding the ESLint configuration
 
----
-
-## 🛠 Tech Stack
-
-**Frontend**
-- React (Vite)
-- Recharts (data visualization)
-- Axios
-- Custom dashboard UI
-
-**Backend**
-- Node.js
-- Express.js
-- REST APIs
-
----
-
-## 📊 Features
-
-- Risk summary cards (Low / Medium / High / Critical)
-- Risk distribution bar chart
-- Access events table with:
-  - User identity
-  - Authentication type
-  - Failed attempts
-  - Login time
-  - Color-coded risk level
-- Supports mock data + API-driven data
-
----
-
-## 🚀 How to Run Locally
-
-### Backend
-```bash
-cd backend
-npm install
-node server.js
-
-Runs on: http://localhost:5000
-
-
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-
-Runs on: http://localhost:5173
-
-
-Screenshots
-
-**Dashboard Overview**
-
-**Dashboard Overview**
-![Dashboard Overview]
-(./screenshots/dashboard_overview.png)
-(./screenshots/dashboard_overview1.png)
-(./screenshots/dashboard_overview2.png)
-
-**Risk Chart**
-![Risk Chart](./screenshots/risk_chart.png)
-
-**Access Events Table**
-![Access Events Table](./screenshots/access_events_table.png)
-
-
-
-
-
-## 👤 Author
-
-Yashwanth S R  
-Frontend-focused Developer  
-Proof-of-work project inspired by Unosecur
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
